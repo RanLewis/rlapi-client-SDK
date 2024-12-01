@@ -13,10 +13,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @Author Ran Lewis
- * @Version 1.0
- * @Description 调用第三方接口客户端
- * @Date 2024/11/13 18:42
+ * RLAPIClient class.
+ *
+ * @author Ran Lewis
+ * @version 1.0
+ * @since 2024/11/15
  */
 public class RLAPIClient {
 

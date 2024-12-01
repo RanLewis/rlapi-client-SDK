@@ -8,10 +8,11 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @Author Ran Lewis
- * @Version 1.0
- * @Description
- * @Date 2024/11/30 16:23
+ * RLAPIClientConfig
+ *
+ * @author Ran Lewis
+ * @version 1.0
+ * @since 2024/11/15
  */
 @Configuration
 @ConfigurationProperties(prefix = "rlapi.client")
