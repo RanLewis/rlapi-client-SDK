@@ -47,7 +47,7 @@ public class RLAPIClient {
 
     public String getUsername(User user) {
         String json = JSONUtil.toJsonStr(user);
-        HttpResponse response = HttpRequest.post("http://localhost:8123/name/user")
+        HttpResponse response = HttpRequest.post("http://localhost:8123/api/name/user")
                 .body(json)
                 .addHeaders(getSignMap(json))
                 .execute();
